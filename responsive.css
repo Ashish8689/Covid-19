@@ -1,0 +1,348 @@
+@media screen and (max-width: 360px){
+
+
+/* ********************   Protect  ********************** */
+.protect-container{
+  height: 120px;
+ }
+
+}
+
+@media screen and  (min-width: 361px) and (max-width: 500px){
+
+/* ********************   Protect  ********************** */
+.protect-container{
+  height: 150px;
+ }
+}
+
+@media screen and  (min-width: 501px) and (max-width: 767px){
+
+/* ********************   Protect  ********************** */
+.protect-container{
+  height: 250px;
+ }
+
+}
+
+@media screen and  (min-width: 769px) and (max-width: 1050px){
+
+/* ********************   Protect  ********************** */
+.protect-container{
+  height: 370px;
+ }
+
+}
+
+
+@media screen and (max-width: 1000px){
+
+ header{
+ 	padding: 10px 0;
+ 	height: auto;
+ }
+
+ .head-img img{
+ 	width: 500px;
+ 	height: 300px;
+ }
+
+
+.logo h3{
+    font-size: 20px;
+}
+.logo img{
+    width: 20px!important;
+}
+
+ .left-grid{
+ 	padding: 0 30px!important;
+ }
+
+ .title-group h2{
+    font-size:50px;
+    letter-spacing:1px;
+}
+.title-group h3{
+    font-size: 15px;
+}
+.title-group h4{
+    font-size: 20px;
+}
+
+.content .text{
+	padding: 15px 0;
+}
+
+.content .text h4{
+  font-size: 13px;
+}
+
+.content .button{
+  padding: 10px 0;
+}
+
+.content .button .btn1{
+  padding:10px 15px;
+  font-size: 12px;
+}
+
+.content .button .btn2{
+  padding:10px 15px;
+  font-size: 12px;
+}
+
+
+.left-grid .cases{
+  margin-top:40px;
+  width: 100%;
+}
+
+.left-grid .cases h4{
+  font-size: 10px;
+  letter-spacing: 0px;
+}
+
+.left-grid .cases h5{
+  font-size: 13px;
+}
+
+
+/* *****************  About  ******************** */
+
+.about{
+    padding: 30px 0;
+    height: auto;
+}
+
+.about-img{
+  width: 300px;
+}
+
+.info{
+    padding: 20px;
+}
+ .info .title{
+    margin: 0;
+    font-size: 18px;
+}
+
+ .info .subtitle{
+    margin-bottom:20px;
+    font-size: 30px;
+}
+
+ .info .para{
+    font-size: 14px;
+}
+
+ .query{
+    padding:20px 0;
+}
+
+ .query h3{
+    font-size: 20px;
+}
+
+ .query .links{
+    padding:10px 0;
+}
+
+
+/* *************  Spread  **************** */
+
+.card{
+    width:250px;
+    margin: 10px;
+}
+
+.card .img-container{
+    width: 100%;
+    height: 150px;
+}
+
+.card .img-container img{
+	width: 100%;
+	height: 100%;
+}
+
+.card .text{
+    padding:10px;
+}
+
+.card .text h5{
+    font-size: 16px;
+}
+
+.card .text h6{
+    font-size: 13px;
+}
+
+
+/* ******************  Symptoms  ********************** */
+.symptoms-section{
+    margin: 40px 0;
+}
+
+.symptoms-section .block img{
+    top:-35%;
+}
+
+/* ********************   Protect  ********************** */
+
+/* .protect-container{
+  width: 100%;
+  height: 100px;
+} */
+
+
+/* **************  Hand  ******************* */
+
+.hand .info{
+    padding: 10px;
+}
+
+
+/* ***************  Prevention   *************************** */
+
+.prevention .info{
+	padding: 20px 0;
+}
+
+.prevention .info .subtitle{
+	margin-bottom:10px;
+}
+
+.prevention .prevention-img{
+  width: 100%;
+  height: 300px;
+}
+
+.prevention-section .block{
+   height:auto;
+}
+
+.prevention-section .block img{
+    width:80px;
+    height: auto;
+    border-radius:100%;
+}
+
+.prevention-section .block .info{
+    padding: 10px;
+}
+
+.prevention-section .block .info h4{
+    font-size: 16px;
+}
+
+.prevention-section .block .info p{
+    font-size: 13px;
+}
+
+
+
+/* **********  Footer Section  ************ */
+  .footer{
+    padding: 20px 0 10px 0;
+  }
+
+  .footer .row{
+    padding:10px 0 0 0;
+  }
+
+  .footer .brand{
+	  padding: 0 40px;
+  }
+
+  .footer .brand h3{
+	    font-size: 30px;
+   }
+
+  .footer .brand p{
+	  max-width: 400px;
+	  font-size: 14px;
+   } 
+
+  .footer .f-grid{
+     margin: 20px 0;
+  }
+
+   .footer h3{
+    font-size: 12px;
+  } 
+
+  .footer h6{
+ 	margin-bottom: 20px;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+
+ .nav{
+    width: 100%;
+    margin:0px;
+    height: 14vh;
+    justify-content: space-around;
+    position: fixed;
+}
+
+.hamburger{
+  display:block;
+  margin-left:0px;
+  z-index: 100;
+}
+
+.logo{
+    /* margin-left: 60px; */
+}
+.logo img{
+   width: 40px;
+}
+
+ .side-menu ul{
+  margin: 0;
+  position: absolute;
+  padding: 0;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  transform: translateX(-120%);
+  transition: .2s;
+  z-index: 11;
+  position: fixed;
+}
+
+.side-menu ul.active{
+  transform: translateX(0%);
+}
+
+}

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Corona Virus Tracker</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Links/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+</head>
+
+<body onload="CoverData()">
+
+	<!-- **************  Navbar  ******************** -->
+
+
+ 	<nav class="nav">
+
+ 		<div class="hamburger">
+ 			<i class="fa fa-bars"></i>
+ 		</div>
+
+ 		<div class="logo">
+ 			<a href="#"><h3>C<img src="image/logo.png">vid 19</h3></a>
+ 		</div>
+
+
+	 	<div class="side-menu">
+		 	<ul class="nav-list">
+		 		<a href="#"><li class="nav-link">home</li></a>
+		 		<a href="#about"><li class="nav-link">About Corona</li></a>
+		 		<a href="#symptoms"><li class="nav-link">Symptoms</li></a>
+		 		<a href="#prevention"><li class="nav-link">Prevention</li></a>   
+		        <!-- <a href="#"><li class="nav-link">Treatment</li></a> -->
+		        <a href="#protect"><li class="nav-link">Do & Don't</li></a>
+		        <a href="world.html"><li class="nav-link track">Track</li></a>
+		 	</ul>
+	    </div>
+
+ 	</nav>
+
+ <header>
+
+   <div class="row">
+	   	  <div class="left-grid col-lg-6 col-md-6 col-sm-7 col-12">
+	   	  	  <div class="content">
+			 		<div class="title-group d-flex">
+			 			<h2>Corona</h2>
+			 			<div class="d-flex align-items-center justify-content-center flex-column ml-2">
+			 				<h3>Covid-19</h3>
+			 				<h4>Virus</h4>
+			 			</div>
+			 		</div>
+			 		<div class="text">
+				 		<h4>The Coronavirus (Covid-19) was reported in Wuhan,Hubei,China in December 2019,
+				 		the outbreak was later recoginized as a Pandemic by the World Health Organisation (WHO)
+				 		on 11 March 2020 .</h4>
+	 		        </div>
+
+	 		        <div class="button">
+	 		        	<a href="#protect" class="btn1">How to protect <i class="fa fa-lg fa-shield"></i></a>
+				 		<a href="#about" class="btn2">About COVID-19 <i class="fa fa-lg fa-arrow-right"></i></a>
+	 		        </div>
+	 	       </div>
+
+
+	 	       <div class="cases">
+	 	       	  <div class="world-cases">
+	 	       	  	<h4>worldwide cases</h4>
+	 	       	  	<h5 class="cc con-cases"></h5>
+	 	       	  </div>
+	 	       	  <div class="death">
+	 	       	  	<h4>deaths</h4>
+	 	       	  	<h5 class="d deaths"></h5>
+	 	       	  </div>
+	 	       	  <div class="recovered">
+	 	       	  	<h4>recovered</h4>
+	 	       	  	<h5 class="r recovereds"></h5>
+	 	       	  </div>
+	 	       </div>
+	   	  </div>
+
+	   	  <div class="col-lg-6 col-md-6 col-sm-5 col-12 head-img">
+	   	  	  <img src="image/cover.png" class="img-fluid">
+	   	  </div>
+     </div>     
+ 	
+ </header>
+
+
+<!-- ***********************  About Corona Virus  ******************************* -->
+
+ <div  id='about' class="about">
+ 	 <div class="row">
+ 	 	<div class="col-lg-6 col-md-6 col-sm-6 col-12 text-center">
+ 	 		<img src="image/covid.png" alt="covid" class=" about-img">
+ 	 	</div>
+
+ 	 	<div class="col-lg-6 col-md-6 col-sm-6 col-12">
+ 	 		<div class="info">
+ 	 			<h3 class="title">About the Disease</h3>
+ 	 			<h2 class="subtitle">Coronavirus (covid-19)</h2>
+
+ 	 			<p class="para">Covid -19 is a new illness that can affect your lungs and airways.
+ 	 			It is also called as Coronovirus. It was discoverd in December 2019 in Wuhan,China.</p>
+ 	 			<p class="para">The Coronavirus is spread mainly from person to person.
+  	  					This can only happen with person who are in close contact with each other.</p>
+ 	 			<p class="para">Regularly or throughly clean your hand with an alcohol based sanitizer 
+ 	 			or wash them with soap as it kill the virus that may be on your hand.</p>
+
+ 	 			<div class="query">
+ 	 				<h3>What you need to Know</h3>
+
+ 	 				<div class="links">
+ 	 					<a href="#spread">how corona virus is spread <i class="fa fa-lg fa-arrow-right"></i></a>
+ 	 					<a href="#symptoms">Symptoms of corona virus <i class="fa fa-lg fa-arrow-right"></i></a>
+ 	 					<a href="#prevention">how to prevent and protect <i class="fa fa-lg fa-arrow-right"></i></a>
+ 	 					<a href="">Questions & Answer <i class="fa fa-lg fa-arrow-right"></i></a>
+ 	 				</div>
+ 	 			</div>
+ 	 		</div>
+ 	 	</div>
+ 	 </div>
+ </div>
+  
+  <!-- *************************   How virus Spread  **************************** -->
+
+
+  <div class="spread" id="spread">
+  	  <div class="info">
+  	  	 <h3 class="title">How Corona virus is spread</h3>
+  	  	 <h4 class="subtitle">Transmission of covid-19</h4>
+  	  	 <p class="para">The Coronavirus is spread mainly from person to person.
+  	  	 This can only happen with person who are in close contact with each other.Regularly or throughly clean your hand with an alcohol based sanitizer.</p>
+  	  </div>
+
+     <div class="container-lg">
+  	  	<div class="row px-2">
+  	  		<div class="col-lg-4 col-md-4 col-sm-4 col-12">
+  	  			<div class="card">
+  	  				<div class="img-container">
+  	  					<img src="image/touch.png" class="img-fluid">
+  	  				</div>
+  	  				<div class="text">
+  	  					<h5>Person-to-Person as close contact.</h5>
+  	  					<h6>The Coronavirus is spread mainly from person to person.
+  	  					This can only happen with person who are in close contact with each other.</h6>
+  	  				</div>
+  	  			</div>
+  	  		</div>
+  	  		<div class="col-lg-4 col-md-4 col-sm-4 col-12">
+  	  			<div class="card">
+  	  				<div class="img-container">
+  	  					<img src="image/surface.png" class="img-fluid">
+  	  				</div>
+  	  				<div class="text">
+  	  					<h5>Touching or contact with infected surface.</h5>
+  	  					<h6>A person can get COVID-19 by touching the infected Surface.
+  	  					And after that by touching their own mouth, nose and eyes.</h6>
+  	  				</div>
+  	  			</div>
+  	  		</div>
+  	  		<div class="col-lg-4 col-md-4 col-sm-4 col-12">
+  	  			<div class="card">
+  	  				<div class="img-container">
+  	  					<img src="image/sneeze.png" class="img-fluid">
+  	  				</div>
+  	  				<div class="text">
+  	  					<h5>Droplets from the infected person coughs or sneezes.</h5>
+  	  					<h6>The Coronavirus is spread mainly from person to person.
+  	  					This can only happen with person who are in close contact with each other.</h6>
+  	  				</div>
+  	  			</div>
+  	  		</div>
+  	  	</div>
+  	   </div>
+  	 </div>
+
+
+  <!-- ********************  Symptoms  ************************* -->
+
+   <div  id="symptoms" class="symptoms">
+   	    <div class="info">
+	  	  	 <h3 class="title">What ar the Symptoms of Covid-19 ?</h3>
+	  	  	 <h4 class="subtitle">Symptoms of coronavirus</h4>
+	  	  	 <p class="para">The Coronavirus is spread mainly from person to person.
+  	  	 This can only happen with person who are in close contact with each other.Regularly or throughly clean your hand with an alcohol based sanitizer.</p>
+  	    </div>
+
+
+  	    <div class="container-lg">
+  	  	    <div class="symptoms-section">
+				<div class="block">
+					<img src="image/fever.png">
+						<div class="block-info">
+							<h5>fever</h5>
+							<h3>High fever - <spna>this mean you will feel hot to touch on your chest
+							and on your back. It is a common sign and also appear on 2 to 10 day if you are infected.</spna></h3>
+						</div>
+				</div>
+
+				<div class="block">
+					<img src="image/cough.png">
+						<div class="block-info">
+							<h5>cough</h5>
+							<h3>Continuous cough - <spna>this mean coughing a lot more than an hour
+							(if you usually have a cough, it may be worse than usual). </spna></h3>
+						</div>
+				</div>
+
+				<div class="block">
+					<img src="image/breathing.png">
+						<div class="block-info">
+							<h5>shortness of breadth</h5>
+							<h3>Difficulity breathing - <spna>Around 1 out of every 6 person who is infected become seriously ill and have a difficulty in breathing or shortness of breath.</spna></h3>
+						</div>
+				</div>
+	       </div>
+  	   </div>
+   </div>
+
+
+  <!--  *****************   Wash Hand and Protect   *********************  -->
+
+   <div class="hand">
+   	    <div class="info">
+ 	 			<h3 class="title">Wash your hands frequently</h3>
+ 	 			<h2 class="subtitle">Protect yourself, wash your hand</h2>
+ 	 			<p class="para">Regularly or throughly clean your hand with an alcohol based sanitizer 
+ 	 			or wash them with soap as it kill the virus that may be on your hand.</p>
+ 	 	</div>
+
+ 	   <img src="image/hand.png" alt="hand" class="img-fluid">
+   </div>
+
+
+<!-- ***********************  Preventions  ******************************* -->
+
+  <div  id="prevention" class="prevention">
+  	<div class="container-lg">
+  		<div class="row py-5">
+
+  			<div class="col-lg-6 col-md-6 col-sm-6 col-12">
+  				<img src="image/doctor.png" class="img-fluid prevention-img">
+  			</div>
+
+  			<div class="col-lg-6 col-md-6 col-sm-6 col-12">
+  				<div class="info">
+	 	 			<h3 class="title">How to Protect Yourself ? </h3>
+	 	 			<h2 class="subtitle">Prevention and Advice</h2>
+	 	 			<p class="para">There is currently no vaccine to prevent Coronvirus(Covid-19).
+	 	 			The best way to prevent illness is to avoid being exposed to the virus.</p>
+ 	 	       </div>
+
+ 	 	       <div class="prevention-section">
+ 	 	       	    <div class="block">
+ 	 	       	    	<img src="image/p-hand.png">
+ 	 	       	    	<div class="info">
+ 	 	       	    		<h4>Soap on hand</h4>
+ 	 	       	    		<p>Regularly or throughly clean your hand with an alcohol based sanitizer 
+ 	 			               or wash them with soap and water atleast for 20 second.</p>
+ 	 	       	    	</div>
+ 	 	       	    </div>
+ 	 	       	    <div class="block">
+ 	 	       	    	<img src="image/p-social.png">
+ 	 	       	    	<div class="info">
+ 	 	       	    		<h4>Maintain social distancing</h4>
+ 	 	       	    		<p>Maintain atleast 1 meter (3 feet) of distance from person who are coughing and sneezing as it get a chance that you can be affected to.</p>
+ 	 	       	    	</div>
+ 	 	       	    </div>
+ 	 	       	    <div class="block">
+ 	 	       	    	<img src="image/p-face.png">
+ 	 	       	    	<div class="info">
+ 	 	       	    		<h4>Avoid touching face</h4>
+ 	 	       	    		<p>Hand can touch many surface who probably have virus . So hand can transfer the virus by your nose,mouth,eyes if you touch any of them with your hand.</p>
+ 	 	       	    	</div>
+ 	 	       	    </div>
+ 	 	       	    <div class="block">
+ 	 	       	    	<img src="image/p-hygine.png">
+ 	 	       	    	<div class="info">
+ 	 	       	    		<h4>Practice respiratory hygiene</h4>
+ 	 	       	    		<p>Maintain good respiratory hygiene as covering your Mouth and Nose
+ 	 	       	    		with bent elbow or tissue with cough or sneeze.</p>
+ 	 	       	    	</div>
+ 	 	       	    </div>
+ 	 	       </div>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+
+  <!-- ********************* Do's & Don't   ************************ -->
+
+  <div id="protect" class="protect">
+  	 <div class="info text-center">
+  	  	 <h3 class="title">Do's & Don't</h3>
+  	  	 <h4 class="subtitle">Protect Yourself</h4>
+  	  	 <p class="para mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eum. Eos adipisci perspiciatis excepturi tenetur dolores commodi, ullam minima reiciendis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, magni.</p>
+  	  </div>
+
+  	  <div class="protect-container"></div>
+  </div>
+
+
+ <!-- *********************   Footer  *************************** -->
+
+<div class="footer">
+	<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-6 col-12 offset-lg-1">
+			<div class="brand">
+				<h3><!-- <a href="#"><h3>C<img src="image/logo.png">vid 19</h3></a> -->Covid-19</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi fugit, voluptatum velit error ipsam beatae earum aliquid nostrum excepturi distinctio officiis corporis dolor ipsa minus, sed quos aliquam sapiente neque.</p>
+				<div class="social">
+					<i class="fa fa-facebook"></i>
+					<i class="fa fa-instagram"></i>
+					<i class="fa fa-twitter"></i>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-2 col-md-4 col-sm-4 col-12 f-grid">
+			<h6>Quick Link</h6>
+			<ul>
+				<a href="#symptoms"><li>Symptoms</li></a>
+				<a href="#prevention"><li>Prevention</li></a>
+				<a href="#protect"><li>Protect Yourself</li></a>
+				<a href="#about"><li>About Corona</li></a>
+				<li>FAQs</li>
+		    </ul>
+		</div>
+		<div class="col-lg-2 col-md-4 col-sm-4 col-12 f-grid">
+			<h6>Helpfull Link</h6>
+			<ul>
+				<li>Healthcare Professionals</li>
+				<li>Healthcare facilities</li>
+				<li>Repair your Life</li>
+				<li>Older Adults & Medical Condition</li>
+		    </ul>
+		</div>
+		<div class="col-lg-2 col-md-4 col-sm-4 col-12 f-grid">
+			<h6>Important Link</h6>
+			<ul>
+				<a href="https://www.who.int/"><li>WHO Website</li></a>
+				<a href="https://www.cdc.gov/"><li>CDC Website</li></a>
+				<a href="https://www.nhs.uk/"><li>NHS Website</li></a>
+				<a href="https://www.health.harvard.edu/"><li>Harvard Health</li></a>
+		    </ul>
+		</div>
+	</div>
+
+	<hr>
+	   <a href="https://www.instagram.com/ashishgupta9394/"><h3>Design by Ashish gupta © 2020.</h3></a>
+</div>
+
+
+	 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script src="main.js"></script>	
+
+
+    <script>
+    	
+   // ****************** Cover data  *****************************
+
+        function CoverData(){
+
+	    fetch('https://api.covid19api.com/summary')
+	      .then(res => res.json())
+	      .then(data => {
+
+     // ***************  Total Cases in world  **********************
+           document.querySelector('.con-cases').innerHTML = data.Global.TotalConfirmed;
+
+      // **************  Total Deathsin world  ***********************
+           document.querySelector('.deaths').innerHTML = data.Global.TotalDeaths;
+
+      // **************  Total Deathsin world  ***********************
+           document.querySelector('.recovereds').innerHTML = data.Global.TotalRecovered;
+         
+        })
+    }
+
+    </script>
+	
+</body>
+</html>

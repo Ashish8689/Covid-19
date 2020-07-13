@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Track</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Links/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+</head>
+<body onload="CoronaData()">
+
+	<!-- **************  Navbar  ******************** -->
+
+ 	<nav class="nav">
+
+ 		<div class="hamburger">
+ 			<i class="fa fa-bars"></i>
+ 		</div>
+
+ 		<div class="logo">
+ 			<a href="#"><h3>C<img src="image/logo.png">vid 19</h3></a>
+ 		</div>
+
+
+	 	<div class="side-menu">
+		 	<ul class="nav-list">
+		 		<a href="index.html"><li class="nav-link">home</li></a>
+		 		<a href="world.html"><li class="nav-link">World</li></a>
+		 		<a href="india.html"><li class="nav-link">India</li></a>
+		 	</ul>
+	    </div>
+
+ 	</nav>
+
+
+<!-- **************  World Wise Cases  ********************** -->
+
+<div class="world-header">
+	<div class="container-lg">
+
+		<h2>Worldwise Coronavirus Cases</h2>
+
+		 <div class="world">
+		 	<div class="block">
+		 		<div class="text">
+			 		<h3 class="title">Confirmed Cases</h3>
+			 		<h5 class="number cc con-cases"></h5>
+		 		</div>
+		 	</div>
+		 	<div class="block">
+		 		<div class="text">
+			 		<h3 class="title">Deaths</h3>
+			 		<h5 class="number d death"></h5>
+		 		</div>
+		 	</div>
+		 	<div class="block">
+		 		<div class="text">
+			 		<h3 class="title">Recovered</h3>
+			 		<h5 class="number r recovered"></h5>
+		 		</div>
+		 	</div>
+		 </div>
+	</div>
+</div>
+
+
+ 	<!-- ****************** Tracking  ************************ -->
+
+ <div class="tracking">
+ 	<div class="container-lg">
+	 	<div class="row">
+	 		<div class="col-lg-6 col-md-6 col-sm-6 col-12 p-0">
+				  <div class="table-responsive">
+				  	 <h1>CoronaVirus Tracker</h1>
+						<table class='table table-hover'>
+							<thead>
+							  <tr>
+								<th>Country</th>
+								<th>Confirmed</th>
+								<th>Deaths</th>
+								<th>Recovered</th>
+							 </tr>	
+							</thead>
+
+					       <tbody class="output"></tbody>
+						</table>
+				   </div>
+	 		</div>
+
+	 		<div class="col-lg-6 col-md-6 col-sm-6 col-12">
+
+
+	 			<canvas id="World"></canvas>
+
+
+	 			<div class="table-responsive">
+	 				<h1>Most Affected Countries</h1>
+						<table class='table table-hover'>
+							<thead>
+							  <tr>
+								<th>Country</th>
+								<th>Confirmed</th>
+								<th>Deaths</th>
+								<th>Recovered</th>
+							 </tr>	
+							</thead>
+
+					       <tbody class="most"></tbody>
+						</table>
+				   </div>
+	 		</div>
+	 	</div>
+ 	</div>
+ </div>
+
+
+<!-- *********************   Footer  *************************** -->
+
+<div class="footer">
+	<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-6 col-12 offset-lg-1">
+			<div class="brand">
+				<h3><!-- <a href="#"><h3>C<img src="image/logo.png">vid 19</h3></a> -->Covid-19</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi fugit, voluptatum velit error ipsam beatae earum aliquid nostrum excepturi distinctio officiis corporis dolor ipsa minus, sed quos aliquam sapiente neque.</p>
+				<div class="social">
+					<i class="fa fa-facebook"></i>
+					<i class="fa fa-instagram"></i>
+					<i class="fa fa-twitter"></i>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-2 col-md-4 col-sm-4 col-12 f-grid">
+			<h6>Quick Link</h6>
+			<ul>
+				<a href="#symptoms"><li>Symptoms</li></a>
+				<a href="#prevention"><li>Prevention</li></a>
+				<a href="#protect"><li>Protect Yourself</li></a>
+				<a href="#about"><li>About Corona</li></a>
+				<li>FAQs</li>
+		    </ul>
+		</div>
+		<div class="col-lg-2 col-md-4 col-sm-4 col-12 f-grid">
+			<h6>Helpfull Link</h6>
+			<ul>
+				<li>Healthcare Professionals</li>
+				<li>Healthcare facilities</li>
+				<li>Repair your Life</li>
+				<li>Older Adults & Medical Condition</li>
+		    </ul>
+		</div>
+		<div class="col-lg-2 col-md-4 col-sm-4 col-12 f-grid">
+			<h6>Important Link</h6>
+			<ul>
+				<a href="https://www.who.int/"><li>WHO Website</li></a>
+				<a href="https://www.cdc.gov/"><li>CDC Website</li></a>
+				<a href="https://www.nhs.uk/"><li>NHS Website</li></a>
+				<a href="https://www.health.harvard.edu/"><li>Harvard Health</li></a>
+		    </ul>
+		</div>
+	</div>
+
+	<hr>
+	   <a href="https://www.instagram.com/ashishgupta9394/"><h3>Design by Ashish gupta © 2020.</h3></a>
+</div>
+
+
+
+	 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+ 
+
+    <script src="main.js"></script>	
+	
+</body>
+</html>
