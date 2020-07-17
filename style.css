@@ -219,6 +219,17 @@ header{
   color: #a6acec;
 }
 
+.date{
+    margin: 50px 0;
+}
+
+.date h4{
+    font-size: 14px;
+    color: #a6acec;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+
 /* *************  About Section  *************** */
 
 .about{

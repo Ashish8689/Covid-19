@@ -66,6 +66,11 @@
            document.querySelector('.recovered').innerHTML = data.Global.TotalRecovered;
 
 
+      //   *************  For the CountDown   *****************
+
+           $('.number').counterUp({delay:10,time:1000});
+
+
 
         
         // ********************  World cart ****************************
@@ -170,6 +175,12 @@
 
      // **************  Total Active case in India  ***********************
            document.querySelector('.india-ac-cases').innerHTML = total[0].active;
+
+
+
+       //   *************  For the CountDown   *****************
+    
+           $('.number').counterUp({delay:10,time:800});
 
 
 

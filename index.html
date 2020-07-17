@@ -49,7 +49,7 @@
  <header>
 
    <div class="row">
-	   	  <div class="left-grid col-lg-6 col-md-6 col-sm-7 col-12">
+	   	  <div class="left-grid col-lg-6 col-md-6 col-sm-7 col-12 py-5">
 	   	  	  <div class="content">
 			 		<div class="title-group d-flex">
 			 			<h2>Corona</h2>
@@ -74,16 +74,21 @@
 	 	       <div class="cases">
 	 	       	  <div class="world-cases">
 	 	       	  	<h4>worldwide cases</h4>
-	 	       	  	<h5 class="cc con-cases"></h5>
+	 	       	  	<h5 class="cn cc con-cases"></h5>
 	 	       	  </div>
 	 	       	  <div class="death">
 	 	       	  	<h4>deaths</h4>
-	 	       	  	<h5 class="d deaths"></h5>
+	 	       	  	<h5 class="cn d deaths"></h5>
 	 	       	  </div>
 	 	       	  <div class="recovered">
 	 	       	  	<h4>recovered</h4>
-	 	       	  	<h5 class="r recovereds"></h5>
+	 	       	  	<h5 class="cn r recovereds"></h5>
 	 	       	  </div>
+	 	       </div>
+
+
+	 	       <div class="date">
+	 	       	   <i><h4>* Last updated :<span class="u-date"></span></h4></i>
 	 	       </div>
 	   	  </div>
 
@@ -365,6 +370,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+ 
+
     <script src="main.js"></script>	
 
 
@@ -378,6 +388,11 @@
 	      .then(res => res.json())
 	      .then(data => {
 
+	      	var date = data.Date;
+	      	var finaldate = date.slice(0,10);
+	      	
+	      	document.querySelector('.u-date').innerHTML = finaldate;
+
      // ***************  Total Cases in world  **********************
            document.querySelector('.con-cases').innerHTML = data.Global.TotalConfirmed;
 
@@ -386,6 +401,12 @@
 
       // **************  Total Deathsin world  ***********************
            document.querySelector('.recovereds').innerHTML = data.Global.TotalRecovered;
+
+
+      //   *************  For the CountDown   *****************
+    
+           $('.cn').counterUp({delay:10,time:1000});
+
          
         })
     }
